@@ -45,8 +45,20 @@ const VaccinationCoverage = props => {
               padding: 30,
             }}
           />
-          <Bar dataKey="dose_1" name="Dose 1" fill="#5a8dee" barSize="20%" />
-          <Bar dataKey="dose_2" name="Dose 2" fill="#f54394" barSize="20%" />
+          <Bar
+            dataKey="dose_1"
+            radius={[10, 10, 0, 0]}
+            name="Dose 1"
+            fill="#5a8dee"
+            barSize="20%"
+          />
+          <Bar
+            dataKey="dose_2"
+            radius={[10, 10, 0, 0]}
+            name="Dose 2"
+            fill="#f54394"
+            barSize="20%"
+          />
         </BarChart>
       </ResponsiveContainer>
     </div>
