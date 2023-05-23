@@ -1,0 +1,55 @@
+.dashBoard {
+  background-color: #161625;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 5% 10%;
+}
+.icon {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.icon > img {
+  height: 35px;
+}
+.icon > p {
+  font-weight: 700;
+  color: #2cc6c6;
+}
+.dashBoard > h2 {
+  color: #cbd5e1;
+}
+.loader {
+  min-height: 60vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure > img {
+  width: min(80%, 500px);
+}
+.failure > h1 {
+  color: #ffffff;
+  text-align: center;
+}
+.card {
+  background-color: #1c1c2b;
+  padding: 20px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.heading {
+  color: #cbd5e1;
+  font-weight: 600;
+}
